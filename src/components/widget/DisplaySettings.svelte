@@ -3,16 +3,14 @@ import I18nKey from "@i18n/i18nKey";
 import { getTranslation } from "@i18n/translation";
 import Icon from "@iconify/svelte";
 import { siteConfig } from "@/config";
-import { getDefaultHue, getHue, setHue } from "@utils/setting-utils";
-import { getStoredLang } from "@utils/language-utils.ts";
 import {
-	DEFAULT_BANNER_SETTINGS,
 	getBannerSettings,
 	isDefaultBannerSettings,
 	resetBannerSettings,
 	setBannerSettings,
-	isDefaultBannerSettings,
 } from "@utils/banner-utils";
+import { getStoredLang } from "@utils/language-utils.ts";
+import { getDefaultHue, getHue, setHue } from "@utils/setting-utils";
 
 let hue = getHue();
 const defaultHue = getDefaultHue();
