@@ -1,15 +1,14 @@
 # 关于我
 
-你好，我是 **Tianqi Yu**（[@yutq2002](https://github.com/yutq2002)），就读于 [上海科技大学](https://www.shanghaitech.edu.cn)。
+**于天琪**，[上海科技大学](https://www.shanghaitech.edu.cn)博士研究生（2024–2026 硕士，2026 年起攻读博士，同属张玉瑶教授课题组），[上海精酿协会会员](https://github.com/yutq2002)。研究方向是**生成式模型与医学影像**，伙伴是**黑石工坊啤酒（大连）**。欢迎联系。
 
-这个站点是我的个人技术博客，用来记录学习过程中的思考、项目实践和踩坑笔记。主题基于 [Fuwari](https://github.com/saicaca/fuwari) 构建，简洁、响应式，支持亮色 / 暗色模式。
+## 我正在做
 
-## 我在做什么
-
-- 机器学习与相关项目实践
-- 编程学习与开发记录
-- 偶尔分享课程与实验笔记
+- 先进的隐式神经表示
+- 扩散模型及其基于扩散模型的逆问题
+- 双平面 X-ray 成像系统
 
 ## 联系我
 
-欢迎通过 [GitHub](https://github.com/yutq2002) 与我交流。
+- 邮箱：[yutq2024@shanghaitech.edu.cn](mailto:yutq2024@shanghaitech.edu.cn)
+- GitHub：[@yutq2002](https://github.com/yutq2002)

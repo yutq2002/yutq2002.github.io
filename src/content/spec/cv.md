@@ -1,57 +1,54 @@
 # 简历
 
-## 个人简介
+## 于天琪
 
-**Tianqi Yu**（余天麒）  
-[上海科技大学](https://www.shanghaitech.edu.cn) · [GitHub](https://github.com/yutq2002)
+- 邮箱：[yutq2024@shanghaitech.edu.cn](mailto:yutq2024@shanghaitech.edu.cn)
+- 电话：(+86) 137-6682-7473
+- 地址：上海市浦东新区华夏中路 393 号，上海科技大学
+- GitHub：[@yutq2002](https://github.com/yutq2002)
 
-本科在读，关注机器学习与智能系统相关方向。日常进行课程项目、实验复现与开源实践，并在此博客记录学习笔记与开发心得。
-
-**联系方式**
-
-- GitHub：[github.com/yutq2002](https://github.com/yutq2002)
-- 学校：[上海科技大学](https://www.shanghaitech.edu.cn)
+**研究方向**：医学图像重建、双平面 X-ray 三维重建、生成式模型
 
 ---
 
-## 生涯
+## 教育背景
 
-### 教育经历
-
-| 时间 | 学校 | 学位 / 阶段 |
+| 时间 | 学校 | 学位 |
 | --- | --- | --- |
-| 至今 | 上海科技大学 | 本科在读 |
-
-### 经历与项目
-
-- **PHOENI-X** — 机器学习相关课程 / 研究项目实践（Jupyter Notebook）
-- **SPIDER** — Python 工具与实验项目开发
-
-> 可按时间倒序补充实习、科研助理、竞赛与课程项目经历。
+| 2026 – 至今 | 上海科技大学 | 在读博士研究生，计算机科学与技术 |
+| 2024 – 2026 | 上海科技大学 | 硕士研究生，计算机科学与技术 |
+| 2020.09 – 2024.06 | 哈尔滨工程大学 | 学士，自动化（控制科学与工程） |
 
 ---
 
-## 研究方向
+## 学术论文
 
-- **机器学习**：模型训练、实验设计与结果分析
-- **智能系统**：算法落地、工程实现与工具链搭建
-- **计算机视觉 / 多模态**（可选）：根据课程与课题方向持续探索
+（\* 代表共同一作）
+
+1. Jingxuan Zhang\*, **Tianqi Yu**\*, et al. **XDen-1K: A Density Field Dataset of Real-World Objects.** *ECCV 2026*（中心 B 类）
+2. **Tianqi Yu**, Chenhe Du, et al. **ALFA: Biplanar X-ray Reconstruction via Anatomy-Latent Field Adaptation.** *MICCAI 2026*, Early Accept (top 9%)（中心 B 类）
+3. **Tianqi Yu**, Xuanyu Tian, et al. **SPIDER: Structure-Preferential Implicit Deep Network for Biplanar X-ray Reconstruction.** *Medical Image Analysis (MedIA)*, Under review（中心 A 类）
+4. **Tianqi Yu**, Chenhe Du, et al. **LACE: Layer-wise Adaptive Coordinate and Envelope-modulation in Multiplicative Neural Representations.** *NeurIPS 2026*, 在投（中心 A 类）
 
 ---
 
-## 作品发表
+## 工作经历
 
-### 论文
+### CS270B：高阶数字图像处理 — 助教
 
-> 暂无正式发表论文。可在此按引用格式添加预印本、会议论文与期刊论文。
+2026 年春季学期 · 上海科技大学  
+授课教师：张玉瑶教授
 
-### 开源项目
+### 上海科技大学 Smilelab — 研究生
 
-| 项目 | 说明 | 链接 |
-| --- | --- | --- |
-| PHOENI-X | 机器学习相关实践 | [GitHub](https://github.com/yutq2002/PHOENI-X) |
-| SPIDER | Python 实验与工具项目 | [GitHub](https://github.com/yutq2002/SPIDER) |
+2024 – 至今 · 上海科技大学 · 张玉瑶教授课题组  
+2024–2026 硕士，2026 起博士（同组）  
+研究方向：医学图像重建，生成式模型，隐式神经表示
 
-### 其他
+---
 
-> 可补充技术报告、课程论文、海报展示、博客文章等。
+## 掌握技能
+
+- **编程语言**：Python (PyTorch), C++, LaTeX
+- **软件应用**：Linux, 3D Slicer, Blender
+- **语言能力**：英语（学术读写熟练），普通话

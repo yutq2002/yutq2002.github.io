@@ -7,17 +7,29 @@ import type {
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
+export const localizedSiteConfig = {
+	zh_CN: {
+		subtitle: "射线，啤酒和AI",
+		bio: "上海科技大学 · 射线，啤酒和AI · 上海精酿协会会员",
+	},
+	en: {
+		subtitle: "Rays, Beer & AI",
+		bio: "ShanghaiTech · Rays, Beer & AI · Shanghai Craft Beer Association Member",
+	},
+} as const;
+
 export const siteConfig: SiteConfig = {
-	title: "Tianqi Yu",
-	subtitle: "技术博客",
+	title: "于天琪",
+	subtitle: localizedSiteConfig.zh_CN.subtitle,
 	lang: "zh_CN",
+	languages: ["zh_CN", "en"],
 	themeColor: {
 		hue: 220,
 		fixed: false,
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/demo-banner.png",
+		src: "assets/images/63692738539ae52f5cddddf522cc0860.JPG",
 		position: "center",
 		credit: {
 			enable: false,
@@ -35,9 +47,11 @@ export const siteConfig: SiteConfig = {
 export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home,
-		LinkPreset.Archive,
 		LinkPreset.About,
 		LinkPreset.CV,
+		LinkPreset.Activities,
+		LinkPreset.Gallery,
+		LinkPreset.Friends,
 		{
 			name: "GitHub",
 			url: "https://github.com/yutq2002",
@@ -48,8 +62,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/191070044?v=4",
-	name: "Tianqi Yu",
-	bio: "上海科技大学 · 记录学习与开发",
+	name: "于天琪",
+	bio: localizedSiteConfig.zh_CN.bio,
 	links: [
 		{
 			name: "GitHub",

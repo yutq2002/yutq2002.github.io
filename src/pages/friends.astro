@@ -1,0 +1,33 @@
+---
+import { getEntry, render } from "astro:content";
+import Markdown from "@components/misc/Markdown.astro";
+import I18nKey from "../i18n/i18nKey";
+import { i18n } from "../i18n/translation";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+
+const contentZh = await getEntry("spec", "friends");
+const contentEn = await getEntry("spec", "friends-en");
+
+if (!contentZh || !contentEn) {
+	throw new Error("Friends page content not found");
+}
+
+const { Content: ContentZh } = await render(contentZh);
+const { Content: ContentEn } = await render(contentEn);
+---
+<MainGridLayout title={i18n(I18nKey.friends)} titleI18nKey={I18nKey.friends} description={i18n(I18nKey.friends)}>
+    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+        <div class="card-base z-10 px-9 py-6 relative w-full ">
+            <div data-lang-panel="zh_CN">
+                <Markdown class="mt-2">
+                    <ContentZh />
+                </Markdown>
+            </div>
+            <div data-lang-panel="en" class="hidden">
+                <Markdown class="mt-2">
+                    <ContentEn />
+                </Markdown>
+            </div>
+        </div>
+    </div>
+</MainGridLayout>

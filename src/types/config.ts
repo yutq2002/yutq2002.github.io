@@ -16,6 +16,8 @@ export type SiteConfig = {
 		| "tr"
 		| "id";
 
+	languages?: ("zh_CN" | "en")[];
+
 	themeColor: {
 		hue: number;
 		fixed: boolean;
@@ -49,12 +51,16 @@ export enum LinkPreset {
 	Archive = 1,
 	About = 2,
 	CV = 3,
+	Activities = 4,
+	Gallery = 5,
+	Friends = 6,
 }
 
 export type NavBarLink = {
 	name: string;
 	url: string;
 	external?: boolean;
+	i18nKey?: string;
 };
 
 export type NavBarConfig = {
