@@ -30,6 +30,14 @@ export const zh_CN: Translation = {
 
 	[Key.themeColor]: "主题色",
 
+	[Key.bannerSettings]: "背景图",
+	[Key.bannerPosX]: "水平位置",
+	[Key.bannerPosY]: "垂直位置",
+	[Key.bannerScale]: "缩放",
+	[Key.bannerPanX]: "水平平移",
+	[Key.bannerPanY]: "垂直平移",
+	[Key.reset]: "重置",
+
 	[Key.lightMode]: "亮色",
 	[Key.darkMode]: "暗色",
 	[Key.systemMode]: "跟随系统",

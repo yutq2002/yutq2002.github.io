@@ -30,6 +30,14 @@ export const en: Translation = {
 
 	[Key.themeColor]: "Theme Color",
 
+	[Key.bannerSettings]: "Banner",
+	[Key.bannerPosX]: "Horizontal Position",
+	[Key.bannerPosY]: "Vertical Position",
+	[Key.bannerScale]: "Scale",
+	[Key.bannerPanX]: "Pan Horizontal",
+	[Key.bannerPanY]: "Pan Vertical",
+	[Key.reset]: "Reset",
+
 	[Key.lightMode]: "Light",
 	[Key.darkMode]: "Dark",
 	[Key.systemMode]: "System",

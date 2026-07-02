@@ -3,7 +3,6 @@
 ## Tianqi Yu
 
 - Email: [yutq2024@shanghaitech.edu.cn](mailto:yutq2024@shanghaitech.edu.cn)
-- Phone: (+86) 137-6682-7473
 - Address: ShanghaiTech University, 393 Huaxia Middle Road, Pudong, Shanghai, China
 - GitHub: [@yutq2002](https://github.com/yutq2002)
 

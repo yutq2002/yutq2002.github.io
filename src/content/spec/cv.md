@@ -3,7 +3,6 @@
 ## 于天琪
 
 - 邮箱：[yutq2024@shanghaitech.edu.cn](mailto:yutq2024@shanghaitech.edu.cn)
-- 电话：(+86) 137-6682-7473
 - 地址：上海市浦东新区华夏中路 393 号，上海科技大学
 - GitHub：[@yutq2002](https://github.com/yutq2002)
 

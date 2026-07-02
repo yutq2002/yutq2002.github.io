@@ -206,6 +206,7 @@ import {
 	// ClickScrollPlugin
 } from 'overlayscrollbars';
 import {getHue, getStoredTheme, setHue, setTheme} from "../utils/setting-utils";
+import {applyBannerSettings} from "../utils/banner-utils";
 import {applyLanguage} from "../utils/apply-language";
 import {pathsEqual, url} from "../utils/url-utils";
 import {
@@ -366,6 +367,7 @@ function showBanner() {
 	}
 
 	banner.classList.remove('opacity-0', 'scale-105');
+	applyBannerSettings();
 }
 
 function init() {

@@ -27,6 +27,14 @@ enum I18nKey {
 
 	themeColor = "themeColor",
 
+	bannerSettings = "bannerSettings",
+	bannerPosX = "bannerPosX",
+	bannerPosY = "bannerPosY",
+	bannerScale = "bannerScale",
+	bannerPanX = "bannerPanX",
+	bannerPanY = "bannerPanY",
+	reset = "reset",
+
 	lightMode = "lightMode",
 	darkMode = "darkMode",
 	systemMode = "systemMode",
