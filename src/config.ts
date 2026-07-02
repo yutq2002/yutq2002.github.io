@@ -10,11 +10,11 @@ import { LinkPreset } from "./types/config";
 export const localizedSiteConfig = {
 	zh_CN: {
 		subtitle: "射线，啤酒和AI",
-		bio: "上海科技大学 · 射线，啤酒和AI · 上海精酿协会会员",
+		bio: "上海科技大学 · 射线，啤酒和AI",
 	},
 	en: {
 		subtitle: "Rays, Beer & AI",
-		bio: "ShanghaiTech · Rays, Beer & AI · Shanghai Craft Beer Association Member",
+		bio: "ShanghaiTech · Rays, Beer & AI",
 	},
 } as const;
 

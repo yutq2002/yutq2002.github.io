@@ -1,9 +1,9 @@
 ---
-title: 欢迎来到我的技术博客
+title: 欢迎来到主页
 published: 2026-05-24
-description: 个人博客正式上线，记录开发与折腾。
-tags: [博客]
-category: 随笔
+description: 个人主页正式上线，记录开发与折腾。
+tags: []
+category: ""
 draft: false
 ---
 
