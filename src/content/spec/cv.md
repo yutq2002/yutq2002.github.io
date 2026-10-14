@@ -6,7 +6,7 @@
 - 地址：上海市浦东新区华夏中路 393 号，上海科技大学
 - GitHub：[@yutq2002](https://github.com/yutq2002)
 
-**研究方向**：医学图像重建、双平面 X-ray 三维重建、生成式模型
+**研究方向**：先进的隐式神经表示、医学图像重建（逆问题）、双平面 X-ray 三维重建、生成式模型
 
 ---
 
@@ -24,10 +24,10 @@
 
 （\* 代表共同一作）
 
-1. Jingxuan Zhang\*, **Tianqi Yu**\*, et al. **XDen-1K: A Density Field Dataset of Real-World Objects.** *ECCV 2026*（中心 B 类）
-2. **Tianqi Yu**, Chenhe Du, et al. **ALFA: Biplanar X-ray Reconstruction via Anatomy-Latent Field Adaptation.** *MICCAI 2026*, Early Accept (top 9%)（中心 B 类）
-3. **Tianqi Yu**, Xuanyu Tian, et al. **SPIDER: Structure-Preferential Implicit Deep Network for Biplanar X-ray Reconstruction.** *Medical Image Analysis (MedIA)*, Under review（中心 A 类）
-4. **Tianqi Yu**, Chenhe Du, et al. **LACE: Layer-wise Adaptive Coordinate and Envelope-modulation in Multiplicative Neural Representations.** *NeurIPS 2026*, 在投（中心 A 类）
+1. Jingxuan Zhang\*, **Tianqi Yu**\*, et al. **XDen-1K: A Density Field Dataset of Real-World Objects.** *ECCV 2026*
+2. **Tianqi Yu**, Chenhe Du, et al. **ALFA: Biplanar X-ray Reconstruction via Anatomy-Latent Field Adaptation.** *MICCAI 2026*, Early Accept (top 9%)
+3. **Tianqi Yu**, Xuanyu Tian, et al. **SPIDER: Structure-Preferential Implicit Deep Network for Biplanar X-ray Reconstruction.** *Medical Image Analysis (MedIA)*, Under review
+4. **Tianqi Yu**, Chenhe Du, et al. **LACE: Layer-wise Adaptive Coordinate and Envelope-modulation in Multiplicative Neural Representations.** *NeurIPS 2026*, 在投
 
 ---
 
@@ -42,7 +42,7 @@
 
 2024 – 至今 · 上海科技大学 · 张玉瑶教授课题组  
 2024–2026 硕士，2026 起博士（同组）  
-研究方向：医学图像重建，生成式模型，隐式神经表示
+研究方向：先进的隐式神经表示、医学图像重建（逆问题）、生成式模型
 
 ---
 

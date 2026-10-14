@@ -6,7 +6,7 @@
 - Address: ShanghaiTech University, 393 Huaxia Middle Road, Pudong, Shanghai, China
 - GitHub: [@yutq2002](https://github.com/yutq2002)
 
-**Research Interests**: Medical image reconstruction, biplanar X-ray 3D reconstruction, generative models
+**Research Interests**: Advanced implicit neural representations, medical image reconstruction (inverse problems), biplanar X-ray 3D reconstruction, generative models
 
 ---
 
@@ -42,7 +42,7 @@ Instructor: Prof. Yuyao Zhang
 
 2024 – Present · Prof. Yuyao Zhang's group  
 M.S. 2024–2026, Ph.D. from 2026 onward (same group)  
-Research: Medical image reconstruction, generative models, implicit neural representations
+Research: Advanced implicit neural representations, medical image reconstruction (inverse problems), generative models
 
 ---
 

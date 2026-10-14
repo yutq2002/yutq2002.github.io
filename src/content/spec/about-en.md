@@ -1,6 +1,6 @@
 # About Me
 
-**Yu Tianqi** is a PhD student at [ShanghaiTech University](https://www.shanghaitech.edu.cn) (M.S. 2024–2026, Ph.D. from 2026 onward, same research group under Prof. Yuyao Zhang). His research focuses on **generative models and medical imaging**. Blog and partner: **Blackstone Workshop Beer (Dalian)**. Feel free to get in touch.
+**Yu Tianqi** is a PhD student at [ShanghaiTech University](https://www.shanghaitech.edu.cn) (M.S. 2024–2026, Ph.D. from 2026 onward, same research group under Prof. Yuyao Zhang). His research focuses on **generative models, advanced implicit neural representations, and medical image reconstruction (inverse problems)**.
 
 ## Currently Working On
 
