@@ -1,7 +1,9 @@
 import Key from "../i18nKey";
 import type { Translation } from "../translation";
+import { en } from "./en";
 
 export const es: Translation = {
+	...en,
 	[Key.home]: "Inicio",
 	[Key.about]: "Sobre mí",
 	[Key.cv]: "CV",

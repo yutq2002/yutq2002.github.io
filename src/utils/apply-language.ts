@@ -22,14 +22,14 @@ export function applyLanguage(lang?: SiteLanguage): void {
 		}
 	});
 
-	document.querySelectorAll<HTMLInputElement>("[data-i18n-placeholder]").forEach(
-		(el) => {
+	document
+		.querySelectorAll<HTMLInputElement>("[data-i18n-placeholder]")
+		.forEach((el) => {
 			const key = el.dataset.i18nPlaceholder as I18nKey;
 			if (key && translation[key]) {
 				el.placeholder = translation[key];
 			}
-		},
-	);
+		});
 
 	document.querySelectorAll<HTMLElement>("[data-lang-panel]").forEach((el) => {
 		el.classList.toggle("hidden", el.dataset.langPanel !== activeLang);
@@ -40,14 +40,15 @@ export function applyLanguage(lang?: SiteLanguage): void {
 		bioEl.textContent = getLocalizedBio(activeLang);
 	}
 
-	const subtitleEl = document.querySelector<HTMLElement>("[data-i18n-subtitle]");
+	const subtitleEl = document.querySelector<HTMLElement>(
+		"[data-i18n-subtitle]",
+	);
 	if (subtitleEl) {
 		subtitleEl.textContent = getLocalizedSubtitle(activeLang);
 	}
 
-	const titleKey = document.querySelector<HTMLElement>(
-		"[data-page-i18n-title]",
-	)?.dataset.pageI18nTitle as I18nKey | undefined;
+	const titleKey = document.querySelector<HTMLElement>("[data-page-i18n-title]")
+		?.dataset.pageI18nTitle as I18nKey | undefined;
 
 	if (titleKey && translation[titleKey]) {
 		document.title = `${translation[titleKey]} - ${siteConfig.title}`;

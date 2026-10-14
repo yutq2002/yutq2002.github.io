@@ -8,11 +8,7 @@ interface Props {
 	updated?: Date;
 	hideUpdateDate?: boolean;
 }
-const {
-	published,
-	updated,
-	hideUpdateDate = false,
-} = Astro.props;
+const { published, updated, hideUpdateDate = false } = Astro.props;
 const className = Astro.props.class;
 ---
 

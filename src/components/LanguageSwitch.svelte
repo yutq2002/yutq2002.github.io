@@ -1,10 +1,12 @@
 <script lang="ts">
-import { siteConfig } from "@/config";
+let { class: className = "" }: { class?: string } = $props();
+
 import {
 	getStoredLang,
-	setStoredLang,
 	type SiteLanguage,
+	setStoredLang,
 } from "@utils/language-utils.ts";
+import { siteConfig } from "@/config";
 
 const labels: Record<SiteLanguage, string> = {
 	zh_CN: "中文",
@@ -40,15 +42,19 @@ function handleClick() {
 }
 
 function showPanel() {
-	document.querySelector("#language-panel")?.classList.remove("float-panel-closed");
+	document
+		.querySelector("#language-panel")
+		?.classList.remove("float-panel-closed");
 }
 
 function hidePanel() {
-	document.querySelector("#language-panel")?.classList.add("float-panel-closed");
+	document
+		.querySelector("#language-panel")
+		?.classList.add("float-panel-closed");
 }
 </script>
 
-<div class="relative z-50" role="menu" tabindex="-1" onmouseleave={hidePanel}>
+<div class={`relative z-50 ${className}`} role="menu" tabindex="-1" onmouseleave={hidePanel}>
     <button
         aria-label="Language"
         role="menuitem"

@@ -2,7 +2,6 @@
 import I18nKey from "@i18n/i18nKey";
 import { getTranslation } from "@i18n/translation";
 import Icon from "@iconify/svelte";
-import { siteConfig } from "@/config";
 import {
 	getBannerSettings,
 	isDefaultBannerSettings,
@@ -11,6 +10,7 @@ import {
 } from "@utils/banner-utils";
 import { getStoredLang } from "@utils/language-utils.ts";
 import { getDefaultHue, getHue, setHue } from "@utils/setting-utils";
+import { siteConfig } from "@/config";
 
 let hue = getHue();
 const defaultHue = getDefaultHue();
