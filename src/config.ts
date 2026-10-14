@@ -20,9 +20,9 @@ export const localizedSiteConfig = {
 
 export const siteConfig: SiteConfig = {
 	title: "于天琪",
-	subtitle: localizedSiteConfig.zh_CN.subtitle,
-	lang: "zh_CN",
-	languages: ["zh_CN", "en"],
+	subtitle: localizedSiteConfig.en.subtitle,
+	lang: "en",
+	languages: ["en", "zh_CN"],
 	themeColor: {
 		hue: 220,
 		fixed: false,
@@ -63,7 +63,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/191070044?v=4",
 	name: "于天琪",
-	bio: localizedSiteConfig.zh_CN.bio,
+	bio: localizedSiteConfig.en.bio,
 	links: [
 		{
 			name: "GitHub",
