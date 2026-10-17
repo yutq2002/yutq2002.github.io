@@ -9,7 +9,7 @@ import MainGridLayout from "../layouts/MainGridLayout.astro";
         <section class="card-base rounded-[var(--radius-large)] px-7 py-9 md:px-10 md:py-12">
             <div data-lang-panel="en" class:list={{ hidden: siteConfig.lang !== "en" }}>
                 <p class="mb-3 text-sm font-semibold tracking-wide text-[var(--primary)]">Rays, beer & AI</p>
-                <h1 class="mb-5 text-3xl font-bold leading-tight md:text-4xl">Hi, I'm Theo 👋</h1>
+                <h1 class="text-black/90 dark:text-white/90 mb-5 text-3xl font-bold leading-tight md:text-4xl">Hi, I'm Theo 👋</h1>
                 <p class="max-w-2xl text-lg leading-relaxed text-black/75 dark:text-white/75">
                     I'm Tianqi Yu — you can call me Theo. I'm a Ph.D. student in Computer Science at
                     <a class="link text-[var(--primary)]" href="https://smilelab.com.cn" target="_blank" rel="noopener noreferrer">SMILE Lab</a>,
@@ -32,7 +32,7 @@ import MainGridLayout from "../layouts/MainGridLayout.astro";
             </div>
             <div data-lang-panel="zh_CN" class:list={{ hidden: siteConfig.lang !== "zh_CN" }}>
                 <p class="mb-3 text-sm font-semibold tracking-wide text-[var(--primary)]">射线、啤酒和 AI</p>
-                <h1 class="mb-5 text-3xl font-bold leading-tight md:text-4xl">你好，我是于天琪（Theo）👋</h1>
+                <h1 class="text-black/90 dark:text-white/90 mb-5 text-3xl font-bold leading-tight md:text-4xl">你好，我是于天琪（Theo）👋</h1>
                 <p class="max-w-2xl text-lg leading-relaxed text-black/75 dark:text-white/75">
                     也可以叫我 Theo。我是上海科技大学
                     <a class="link text-[var(--primary)]" href="https://smilelab.com.cn" target="_blank" rel="noopener noreferrer">SMILE Lab</a>
@@ -71,24 +71,24 @@ import MainGridLayout from "../layouts/MainGridLayout.astro";
             <a href={url("/activities/")} class="card-base rounded-[var(--radius-large)] p-7 transition hover:-translate-y-1">
                 <div data-lang-panel="en" class:list={{ hidden: siteConfig.lang !== "en" }}>
                     <p class="mb-2 text-sm font-semibold text-[var(--primary)]">Outside the lab</p>
-                    <h2 class="mb-2 text-xl font-bold">What I've been up to →</h2>
+                    <h2 class="text-black/90 dark:text-white/90 mb-2 text-xl font-bold">What I've been up to →</h2>
                     <p class="text-black/65 dark:text-white/65">Research, events, and the occasional beer-related adventure.</p>
                 </div>
                 <div data-lang-panel="zh_CN" class:list={{ hidden: siteConfig.lang !== "zh_CN" }}>
                     <p class="mb-2 text-sm font-semibold text-[var(--primary)]">实验室之外</p>
-                    <h2 class="mb-2 text-xl font-bold">最近在忙些什么 →</h2>
+                    <h2 class="text-black/90 dark:text-white/90 mb-2 text-xl font-bold">最近在忙些什么 →</h2>
                     <p class="text-black/65 dark:text-white/65">科研、活动，还有一些与啤酒有关的小冒险。</p>
                 </div>
             </a>
             <a href="mailto:yutq2024@shanghaitech.edu.cn" class="card-base rounded-[var(--radius-large)] p-7 transition hover:-translate-y-1">
                 <div data-lang-panel="en" class:list={{ hidden: siteConfig.lang !== "en" }}>
                     <p class="mb-2 text-sm font-semibold text-[var(--primary)]">Say hello</p>
-                    <h2 class="mb-2 text-xl font-bold">Let's talk →</h2>
+                    <h2 class="text-black/90 dark:text-white/90 mb-2 text-xl font-bold">Let's talk →</h2>
                     <p class="text-black/65 dark:text-white/65">Ideas, collaborations, or a good beer recommendation are all welcome.</p>
                 </div>
                 <div data-lang-panel="zh_CN" class:list={{ hidden: siteConfig.lang !== "zh_CN" }}>
                     <p class="mb-2 text-sm font-semibold text-[var(--primary)]">保持联系</p>
-                    <h2 class="mb-2 text-xl font-bold">来聊聊吧 →</h2>
+                    <h2 class="text-black/90 dark:text-white/90 mb-2 text-xl font-bold">来聊聊吧 →</h2>
                     <p class="text-black/65 dark:text-white/65">研究想法、合作机会，或一款好啤酒，都欢迎来信。</p>
                 </div>
             </a>
@@ -96,11 +96,11 @@ import MainGridLayout from "../layouts/MainGridLayout.astro";
 
         <section class="card-base rounded-[var(--radius-large)] p-7 md:p-9">
             <div data-lang-panel="en" class:list={{ hidden: siteConfig.lang !== "en" }}>
-                <h2 class="mb-2 text-xl font-bold">Where visitors come from</h2>
+                <h2 class="text-black/90 dark:text-white/90 mb-2 text-xl font-bold">Where visitors come from</h2>
                 <p class="mb-5 text-sm text-black/60 dark:text-white/60">Countries are counted from the day this counter was added.</p>
             </div>
             <div data-lang-panel="zh_CN" class:list={{ hidden: siteConfig.lang !== "zh_CN" }}>
-                <h2 class="mb-2 text-xl font-bold">访客来自哪里</h2>
+                <h2 class="text-black/90 dark:text-white/90 mb-2 text-xl font-bold">访客来自哪里</h2>
                 <p class="mb-5 text-sm text-black/60 dark:text-white/60">从加入统计组件之日起记录访客国家或地区。</p>
             </div>
             <a href="https://flagcounter.me/details/kKP" target="_blank" rel="noopener noreferrer" aria-label="View visitor country statistics">
