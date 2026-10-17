@@ -4,15 +4,21 @@ import { siteConfig } from "@/config";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 ---
 
-<MainGridLayout title="Home" description="A little about Tianqi Yu, research, beer, and the things in between.">
+<MainGridLayout title="Home" description="Meet Tianqi (Theo) Yu, a Computer Science Ph.D. student at ShanghaiTech University’s SMILE Lab working on advanced implicit neural representations and generative models.">
     <div class="space-y-4">
         <section class="card-base rounded-[var(--radius-large)] px-7 py-9 md:px-10 md:py-12">
             <div data-lang-panel="en" class:list={{ hidden: siteConfig.lang !== "en" }}>
                 <p class="mb-3 text-sm font-semibold tracking-wide text-[var(--primary)]">Rays, beer & AI</p>
-                <h1 class="mb-5 text-3xl font-bold leading-tight md:text-4xl">Hi, I'm Tianqi 👋</h1>
+                <h1 class="mb-5 text-3xl font-bold leading-tight md:text-4xl">Hi, I'm Theo 👋</h1>
                 <p class="max-w-2xl text-lg leading-relaxed text-black/75 dark:text-white/75">
-                    I spend my days exploring how a few X-rays can tell a bigger 3D story. At ShanghaiTech,
-                    I work on medical image reconstruction, implicit representations, and generative models.
+                    I'm Tianqi Yu — you can call me Theo. I'm a Ph.D. student in Computer Science at
+                    <a class="link text-[var(--primary)]" href="https://smilelab.com.cn" target="_blank" rel="noopener noreferrer">SMILE Lab</a>,
+                    ShanghaiTech University, advised by
+                    <a class="link text-[var(--primary)]" href="https://sist.shanghaitech.edu.cn/zhangyy8/main.htm" target="_blank" rel="noopener noreferrer">Prof. Yuyao Zhang</a>.
+                </p>
+                <p class="mt-4 max-w-2xl leading-relaxed text-black/70 dark:text-white/70">
+                    My research focuses on advanced implicit neural representations, generative models,
+                    and medical image reconstruction (inverse problems).
                 </p>
                 <p class="mt-4 max-w-2xl leading-relaxed text-black/70 dark:text-white/70">
                     Away from the lab, I'm into beer tasting and judging. I'm a judge in the
@@ -26,9 +32,15 @@ import MainGridLayout from "../layouts/MainGridLayout.astro";
             </div>
             <div data-lang-panel="zh_CN" class:list={{ hidden: siteConfig.lang !== "zh_CN" }}>
                 <p class="mb-3 text-sm font-semibold tracking-wide text-[var(--primary)]">射线、啤酒和 AI</p>
-                <h1 class="mb-5 text-3xl font-bold leading-tight md:text-4xl">你好，我是于天琪 👋</h1>
+                <h1 class="mb-5 text-3xl font-bold leading-tight md:text-4xl">你好，我是于天琪（Theo）👋</h1>
                 <p class="max-w-2xl text-lg leading-relaxed text-black/75 dark:text-white/75">
-                    我喜欢琢磨怎样从少量 X 光影像里还原更完整的三维世界。目前在上海科技大学研究医学图像重建、隐式神经表示和生成式模型。
+                    也可以叫我 Theo。我是上海科技大学
+                    <a class="link text-[var(--primary)]" href="https://smilelab.com.cn" target="_blank" rel="noopener noreferrer">SMILE Lab</a>
+                    的计算机科学（CS）博士生，导师是
+                    <a class="link text-[var(--primary)]" href="https://sist.shanghaitech.edu.cn/zhangyy8/main.htm" target="_blank" rel="noopener noreferrer">张玉瑶（Yuyao Zhang）教授</a>。
+                </p>
+                <p class="mt-4 max-w-2xl leading-relaxed text-black/70 dark:text-white/70">
+                    我目前主要研究先进的隐式神经表示、生成式模型，以及医学图像重建（逆问题）。
                 </p>
                 <p class="mt-4 max-w-2xl leading-relaxed text-black/70 dark:text-white/70">
                     实验室之外，我也喜欢品尝和评审啤酒。我是
@@ -38,6 +50,19 @@ import MainGridLayout from "../layouts/MainGridLayout.astro";
                 <div class="mt-8 flex flex-wrap gap-3">
                     <a class="btn-regular rounded-xl px-5 py-3 font-semibold" href={url("/cv/")}>查看正式简历 →</a>
                     <a class="btn-plain rounded-xl px-5 py-3 font-semibold" href={url("/about/")}>再多了解一点</a>
+                </div>
+            </div>
+            <div class="mt-8 flex flex-wrap items-center gap-4 border-t border-black/10 pt-6 dark:border-white/10">
+                <a href="https://smilelab.com.cn" target="_blank" rel="noopener noreferrer" aria-label="Visit SMILE Lab at ShanghaiTech University" class="inline-flex shrink-0 rounded-xl bg-white p-4 transition hover:-translate-y-0.5">
+                    <img src={url("/images/smilelab.svg")} alt="SMILE Lab" width="861" height="269" class="h-auto w-44" />
+                </a>
+                <div data-lang-panel="en" class:list={{ hidden: siteConfig.lang !== "en" }}>
+                    <p class="font-semibold text-black/80 dark:text-white/80">My research home</p>
+                    <p class="mt-1 text-sm text-black/60 dark:text-white/60">SMILE Lab · ShanghaiTech University</p>
+                </div>
+                <div data-lang-panel="zh_CN" class:list={{ hidden: siteConfig.lang !== "zh_CN" }}>
+                    <p class="font-semibold text-black/80 dark:text-white/80">我的科研小天地</p>
+                    <p class="mt-1 text-sm text-black/60 dark:text-white/60">SMILE Lab · 上海科技大学</p>
                 </div>
             </div>
         </section>
